@@ -1,113 +1,312 @@
+"use client";
+
+import { CarouselDefault } from "@/components/carousel";
+import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { Services } from "@/components/services";
+import Stars from "@/components/stars";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex min-h-screen flex-col items-center justify-between p-5">
+      {/* Header */}
+      <Header />
+
+      {/* Images */}
+      <section id="images">
+        <CarouselDefault />
+      </section>
+      
+      {/* Services */}
+      <section id="services">
+        <Services />
+      </section>
+
+      {/* Reviews */}
+      <section className="" id="reviews">
+        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <h2 className="text-center lg:text-5xl font-bold tracking-tight text-gray-900 text-2xl sm:text-2xl">
+            Read trusted reviews from our customers
+          </h2>
+
+          <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXIN47xrsoLR6Ezpe0gWI0p94wp8EBdOLhgLdkdc1D3ZnA6NMM=s40-c-rp-mo-ba2-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Taz
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  I called around looking for a company to do a septic tank pump
+                  out I got lucky and came across All-Star Pump Outs. From the
+                  phone call to the quote to service, it was a phenomenal
+                  experience. I like to give credit where credit is due and this
+                  company definitely deserves it. This company cares about its
+                  customers and goes above and beyond. <br />
+                  Thanks again!!!
+                  <br />
+                  Taz
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXDSFskCQYTrVAknzhCur6CJbgkQvZb9h34uQ_gyUaKvQWjWC79=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Fabien Pena
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  I am immensely grateful for their exceptional service. I
+                  reached out on December 30th with an urgent issue regarding my
+                  flooding septic tank, and they responded with remarkable
+                  speed, arriving the very next day. Their team performed a
+                  thorough cleaning and displayed outstanding professionalism
+                  and friendliness throughout the process. Their expertise was
+                  evident in the quality of their work. Additionally, the
+                  affordability of their services was the icing on the cake. I
+                  wholeheartedly recommend them for their excellent service and
+                  value.
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a/ACg8ocIvHHrLyfG4Zo_nlDOuZ7icJHhV4ga0oYwO5OxSg9KJ5OCHeA=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Wil
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  Same day service (SEPTIC TANK PUMPED OUT & HYDRO JETTING ON
+                  MAIN LINE) , great competitive prices. Andrew was very
+                  professional, honest and knows his business. I would highly
+                  recommend him.
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXeR7zRABvaonGhyy_ba4M4AGN-MRMDPB6u7FRYlDwaffj5OE0o6Q=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Fernando Aranguren
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  It is simple, working with Andrew has been one of the best
+                  decisions we have made. Andrew is always very understanding,
+                  super responsive, and fantastic at his job. All Star has been
+                  there for us every time that we’ve needed them. Even during
+                  emergencies on a Sunday! Would recommend 100%. Will continue
+                  to use his services for all my properties!
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a/ACg8ocLMgQFyvG1OqyoQBiTguV8viK7n1kWenzX3AMfEptZuxdKvYw=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Agustin Garcia
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  Excellent company, very professional, punctual, and fair on
+                  the cost. Andrew explained everything he was doing with
+                  details, very honest. He did three septic tank clean up and
+                  maintenance for two of my properties.
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjU_s_55uxMo4hSe29KJpswaMwBK6Zp6aqDyAT4VS4zeIzTg9WA=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Maria Anderson
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  Andrew provided an excellent pumping service for our septic
+                  tank. He was punctual, respectful and professional. He did an
+                  amazing job not only pumping the tank, but using pressure
+                  cleaning to ensure the job was successfully completed. I would
+                  recommend All-Start Pump Outs to anyone looking for excellent
+                  quality service. I will be using their services moving
+                  forward. Happy customer! Maria Anderson
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjXjXKuSuOOgaZQKg7P4noRVR3VjoWY0Z1eFnL2WVfIT8kHAGJJo=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Lauren Curbelo
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  Andrew did an amazing job and was extremely responsive. I
+                  requested a quote via yelp and he replied within 15 minutes.
+                  When he came to the house he explained what he was doing and
+                  was transparent with what he could do to help us and even
+                  provided me with an plumber that could help me use a camera to
+                  identify the issue.
+                  <br /> <br />I would highly recommend him and will be sharing
+                  his information with friends. He definitely helped us remedy
+                  the issue and I am grateful for the attention to detail and
+                  how quickly he was able to get to my house.
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a/ACg8ocLERCIIiINtdoAtB-8a71PqPR6dfoY6EV_4qVokYoiK2x4b0g=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Stefanie Mederos
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  I reached out late Monday for a quote. Andrew immediately
+                  called me and scheduled to come to our house first thing the
+                  next day. He provided excellent service, answered all of our
+                  questions, gave us a good price, and was highly responsive and
+                  very friendly throughout the process. We found our go-to
+                  person for septic tanks at All-Star Pump Outs!
+                </p>
+              </blockquote>
+            </div>
+
+            <div className="mb-8 sm:break-inside-avoid">
+              <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div className="flex items-center gap-4">
+                  <img
+                    alt=""
+                    src="https://lh3.googleusercontent.com/a/ACg8ocIswMP0p9gB6GraLvFH-P3J6FDEOqitWAHmQZuS8UqPONYViA=s40-c-rp-mo-br100"
+                    className="size-14 rounded-full object-cover"
+                  />
+
+                  <div>
+                    <Stars />
+
+                    <p className="mt-0.5 text-lg font-medium text-gray-900">
+                      Ana Shida
+                    </p>
+                  </div>
+                </div>
+
+                <p className="mt-4 text-gray-700">
+                  It was a pleasure to deal with Andrew. Very knowledgeable and
+                  honest . I had few estimates before him but I had a feeling
+                  they overcharging me . Andrew took his time not even knowing
+                  If he is getting the job and explained everything in detail .
+                  He did the job the very next day . I am very pleased and bad
+                  smell on my backyard is gone .
+                </p>
+              </blockquote>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      {/* <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+        Hello
+      </div> */}
+      <Footer />
     </main>
   );
 }
