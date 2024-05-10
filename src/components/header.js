@@ -72,7 +72,7 @@ export function Header() {
       <div className="flex items-center justify-between text-blue-gray-900">
         <img
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/logo.png"
+          src="/allstarpumpouts/logo.png"
           alt="All-Star Pump Outs Logo"
           width={250}
           height={119}
