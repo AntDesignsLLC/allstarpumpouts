@@ -12,7 +12,7 @@ export function CardService({service, image}) {
     <Card className="mt-6 w-50">
       <CardHeader color="blue-gray" className="relative h-50">
         <img
-          src={`/images/serviceCard/${image}`}
+          src={`/allstarpumpouts/images/serviceCard/${image}`}
           alt="card-image"
         />
       </CardHeader>
