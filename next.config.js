@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/allstarpumpouts",
+    // basePath: "/allstarpumpouts",
     output: "export",
     reactStrictMode: true
 };
