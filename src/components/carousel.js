@@ -65,7 +65,7 @@ export function CarouselDefault() {
         />
       </Carousel>
       <div
-        className="xl:top-[53%] lg:top-[45%] md:top-[38%] sm:top-[35%] top-[32%] lg:text-4xl md:text-2xl text-sm text-center drop-shadow-2xl[0_1.2px_1.2px_rgba(0,0,0,1)]"
+        className="xl:top-[53%] lg:top-[45%] md:top-[38%] sm:top-[35%] top-[32%] lg:text-4xl md:text-2xl sm:text-sm text-xs text-center drop-shadow-2xl[0_1.2px_1.2px_rgba(0,0,0,1)]"
         style={{
           position: "absolute",
           left: "50%",
