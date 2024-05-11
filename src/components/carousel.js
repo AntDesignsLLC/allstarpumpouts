@@ -14,52 +14,52 @@ export function CarouselDefault() {
         navigation={({ setActiveIndex, activeIndex, length }) => <div></div>}
       >
         <img
-          src="/allstarpumpouts/images/resized/file.jpg"
+          src="/images/resized/file.jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (1).jpg"
+          src="/images/resized/file (1).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (2).jpg"
+          src="/images/resized/file (2).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (3).jpg"
+          src="/images/resized/file (3).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (4).jpg"
+          src="/images/resized/file (4).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (5).jpg"
+          src="/images/resized/file (5).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (6).jpg"
+          src="/images/resized/file (6).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (7).jpg"
+          src="/images/resized/file (7).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (8).jpg"
+          src="/images/resized/file (8).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
         <img
-          src="/allstarpumpouts/images/resized/file (9).jpg"
+          src="/images/resized/file (9).jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
