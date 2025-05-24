@@ -26,7 +26,7 @@ export default function Home() {
       {/* Reviews */}
       <section className="" id="reviews">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 className="text-center lg:text-5xl font-bold tracking-tight text-gray-900 text-2xl sm:text-2xl">
+          <h2 className="text-center lg:text-5xl font-bold tracking-tight text-white-900 text-2xl sm:text-2xl">
             Read trusted reviews from our customers
           </h2>
 
