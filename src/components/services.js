@@ -19,13 +19,28 @@ export function Services() {
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-          <CardService service={"Septic System Services"} image={"septicTank2.jpg"} />
-          <CardService service={"Grease Trap Services"} image={"greaseTrap2.jpg"}/>
-          <CardService service={"Storm Drain System Services"} image={"stormDrainCleaning.jpg"} />
-          <CardService service={"Drainfield Installs"} image={"drainfield.jpg"} />
-          <CardService service={"Lift Station Services"} image={"liftStationSystem.jpg"}/>
-          <CardService service={"Unclogs/Hydro Jet Cleaning"} image={"hydroJet.jpg"}/>
+        <div className="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Septic System Services"} image={"septicTank2.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Grease Trap Services"} image={"greaseTrap2.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Storm Drain System Services"} image={"stormDrainCleaning.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Drainfield Installs"} image={"drainfieldinstall.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Lift Station Services"} image={"liftStationSystem.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Unclogs/Hydro Jet Cleaning"} image={"hydroJet.jpg"} />
+          </div>
+          <div className="mb-12 sm:break-inside-avoid">
+            <CardService service={"Septic System Replacements + New Drainfield"} image={"SepticSystemReplacementsNewDrainfield.jpg"} />
+          </div>
         </div>
       </div>
     </section>

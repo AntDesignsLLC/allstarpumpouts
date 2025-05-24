@@ -68,7 +68,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a-/ALV-UjXDSFskCQYTrVAknzhCur6CJbgkQvZb9h34uQ_gyUaKvQWjWC79=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a/ACg8ocIvHHrLyfG4Zo_nlDOuZ7icJHhV4ga0oYwO5OxSg9KJ5OCHeA=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
@@ -128,7 +128,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a-/ALV-UjXeR7zRABvaonGhyy_ba4M4AGN-MRMDPB6u7FRYlDwaffj5OE0o6Q=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
@@ -157,7 +157,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a/ACg8ocLMgQFyvG1OqyoQBiTguV8viK7n1kWenzX3AMfEptZuxdKvYw=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
@@ -184,7 +184,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a-/ALV-UjU_s_55uxMo4hSe29KJpswaMwBK6Zp6aqDyAT4VS4zeIzTg9WA=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
@@ -247,7 +247,7 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <img
                     alt=""
-                    src="https://lh3.googleusercontent.com/a/ACg8ocLERCIIiINtdoAtB-8a71PqPR6dfoY6EV_4qVokYoiK2x4b0g=s40-c-rp-mo-br100"
+                    src="/images/profilepic.png"
                     className="size-14 rounded-full object-cover"
                   />
 
